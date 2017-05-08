@@ -13,7 +13,7 @@ $counter = 0;
 
 public function calculateResult()
 {
-	// Do things
+    // Do things
 }
 ````
 
@@ -24,7 +24,7 @@ $cnt = 0;
 <div></div>
 public function calcRes()
 {
-	// Do things
+    // Do things
 }
 ````
 
@@ -47,7 +47,7 @@ We place curly braces in every case on the next line.
 ````php
 class FileAdapter extends Adapter implements AdapterInterface
 {
-	// Do things
+    // Do things
 }
 ````
 
@@ -57,12 +57,12 @@ class FileAdapter extends Adapter implements AdapterInterface
 // Comment A
 if ($a === $b)
 {
-	// Do things
+    // Do things
 }
 // Comment B
 else
 {
-	// Do other things
+    // Do other things
 }
 ````
 
@@ -70,7 +70,7 @@ else
 ````php
 foreach ($items as $item)
 {
-	// Do things
+    // Do things
 }
 ````
 
@@ -78,7 +78,7 @@ foreach ($items as $item)
 ````php
 $myClosureResult = function ( $item ) use ( $anotherItem )
 {
-	// Do things
+    // Do things
 }
 ````
 
@@ -106,12 +106,12 @@ We always set the method visibility in a classes.
 ````php
 public function calculateResult()
 {
-	// Do things
+    // Do things
 }
 
 private function getValueItem()
 {
-	// We don't prefix private methods with _
+    // We don't prefix private methods with _
 }
 ````
 
@@ -119,12 +119,12 @@ private function getValueItem()
 ````php
 function calculateResult()
 {
-	// Do things
+    // Do things
 }
 
 private function _getValueItem()
 {
-	// We don't prefix private methods with _
+    // We don't prefix private methods with _
 }
 ````
 
@@ -139,7 +139,7 @@ public function calculateResult( $firstValue, $secondValue, $operator )
 
 if ( ! $firstValue )
 {
-	// Do things
+    // Do things
 }
 ````
 
