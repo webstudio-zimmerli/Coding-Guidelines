@@ -86,11 +86,11 @@ Don't nest more than 3 levels
     {
         a.green
         {
-             // Dont nest more
+             // Don't nest more
              
              &:hover
              {
-	             // Don't do this
+                // Don't do this
              }
         }
         
