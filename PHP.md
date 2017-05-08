@@ -55,7 +55,7 @@ class FileAdapter extends Adapter implements AdapterInterface
 
 ````php
 // Comment A
-if ($a === $b)
+if ( $a === $b )
 {
     // Do things
 }
@@ -68,7 +68,7 @@ else
 
 **For-Each**
 ````php
-foreach ($items as $item)
+foreach ( $items as $item )
 {
     // Do things
 }
