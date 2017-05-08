@@ -21,7 +21,7 @@ public function calculateResult()
 ````php
 $cRes = 0;
 $cnt = 0;
-<div></div>
+
 public function calcRes()
 {
     // Do things
