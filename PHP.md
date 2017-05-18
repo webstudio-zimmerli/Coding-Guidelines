@@ -55,7 +55,7 @@ class FileAdapter extends Adapter implements AdapterInterface
 
 ````php
 // Comment A
-if ( $a === $b )
+if($a === $b)
 {
     // Do things
 }
@@ -68,7 +68,7 @@ else
 
 **For-Each**
 ````php
-foreach ( $items as $item )
+foreach ($items as $item)
 {
     // Do things
 }
@@ -76,7 +76,7 @@ foreach ( $items as $item )
 
 **Closures**
 ````php
-$myClosureResult = function ( $item ) use ( $anotherItem )
+$myClosureResult = function ($item) use ($anotherItem)
 {
     // Do things
 }
@@ -130,14 +130,9 @@ private function _getValueItem()
 
 ## 5. Recommendation
 
-### 5.1 Use spaces between parameters
+### 5.1 Use spaces between negations
 ````php
-public function calculateResult( $firstValue, $secondValue, $operator )
-{
-	// Do things
-}
-
-if ( ! $firstValue )
+if( ! $firstValue)
 {
     // Do things
 }

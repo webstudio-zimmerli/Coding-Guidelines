@@ -54,7 +54,7 @@ class FileAdapter extends Adapter
 
 ````javascript
 // Comment A
-if ( a === b )
+if (a === b)
 {
     // Do things
 }
@@ -67,7 +67,7 @@ else
 
 **For-Each**
 ````javascript
-items.forEach( function( value, index ) )
+items.forEach(function(value, index))
 {
     // Do things
 }
@@ -92,12 +92,12 @@ _getValueItem()
 
 ### 5.1 Use spaces between parameters
 ````javascript
-calculateResult( firstValue, secondValue, operator )
+calculateResult(firstValue, secondValue, operator)
 {
 	// Do things
 }
 
-if ( ! firstValue )
+if ( ! firstValue)
 {
     // Do things
 }
