@@ -90,13 +90,8 @@ _getValueItem()
 
 ## 5. Recommendation
 
-### 5.1 Use spaces between parameters
+### 5.1 Use spaces between negations
 ````javascript
-calculateResult(firstValue, secondValue, operator)
-{
-	// Do things
-}
-
 if ( ! firstValue)
 {
     // Do things
